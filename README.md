@@ -1,4 +1,4 @@
-****CMSC 416 Spring 2022****
+# CMSC 416 Spring 2022
 
 **Summary of Projects :**
 
