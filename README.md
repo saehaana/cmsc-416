@@ -1,1 +1,3 @@
-The two folders above are NLP projects done in Python.  
+#CMSC 416
+
+The two folders above are NLP school projects done in Python. Check their contents for more information
