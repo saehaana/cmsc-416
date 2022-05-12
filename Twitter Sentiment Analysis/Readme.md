@@ -27,7 +27,9 @@ This program performs positive/negative sentiment analysis over tweets downloade
 
 * To run sentiment.py, enter the command : ```python sentiment.py sentiment-train.txt sentiment-test.txt my-model.txt > my-sentiment-answers.txt```
 
-  * To view list of predicted sentiments open my-sentiment-answers.txt 
+  * A list of predicted sentiments will be outputted to my-sentiment-answers.txt
+  
+    [![image.png](https://i.postimg.cc/wM7B3WBr/image.png)](https://postimg.cc/2LNYK7hd)
 
 * To run scorer.py, enter the command : ```python scorer.py my-sentiment-answers.txt sentiment-test-key.txt ```
   
