@@ -8,7 +8,7 @@ This program performs positive/negative sentiment analysis over tweets downloade
 
 * Download all other files within this folder
 
-* This program also requires you have [nltk](https://www.nltk.org/data.html) and nltk stopwords to run 
+* This program also requires you have [nltk stopwords](https://www.nltk.org/data.html) to run 
 
   ### **How to Install nltk**
   
@@ -16,19 +16,17 @@ This program performs positive/negative sentiment analysis over tweets downloade
   
   * For nltk : type ```pip install nltk```
 
-  * For nltk stopwords : type ```python -m nltk.downloader all```
-
-
+  * For just nltk stopwords : type ```python -m nltk.downloader stopwords```
 
 ## **How To Use sentiment.py and scorer.py**
 
 * Open command prompt and change directory to where you downloaded your files
-  * e.g. If you downloaded the files to your downloads folder then enter 'cd downloads'
+  * e.g. If you downloaded the files to your Downloads folder then enter 'cd downloads'
   
     [![image.png](https://i.postimg.cc/P5n7qP3b/image.png)](https://postimg.cc/yknjQYzW)
 
-* Enter the command : ```python sentiment.py sentiment-train.txt sentiment-test.txt my-model.txt > my-sentiment-answers.txt```
+* To run sentiment.py, enter the command : ```python sentiment.py sentiment-train.txt sentiment-test.txt my-model.txt > my-sentiment-answers.txt```
 
 * To view list of predicted sentiments open my-sentiment-answers.txt 
 
-* 
+* To run scorer.py, enter the command : ```python scorer.py my-sentiment-answers.txt sentiment-test-key.txt ```
