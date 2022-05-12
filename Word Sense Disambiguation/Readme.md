@@ -1,4 +1,4 @@
-# Programming Assignment 5: Twitter Sentiment Analysis
+# Programming Assignment 4: Word Sense Disambiguation
 
 ## **Summary**
 
