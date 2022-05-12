@@ -1,16 +1,16 @@
 # Programming Assignment 5: Twitter Sentiment Analysis
 
-**Summary**
+## **Summary**
 
 This program performs positive/negative sentiment analysis over tweets downloaded from twitter. A bag-of-words representation of the training data and other features were used as a model for our program to learn from. Using this model, the program reads an unannotated corpus and predicts whether a tweet is more positive or negative in sentiment. The accuracy of the model can be seen within the description of sentiment.py 
 
-**Installation**
+## **Installation**
 
 * Download all other files within this folder
 
 * This program also requires you have [nltk](https://www.nltk.org/data.html) and nltk stopwords to run 
 
-  **How to Install nltk**
+  ### **How to Install nltk**
   
   * Open command prompt
   
@@ -20,11 +20,14 @@ This program performs positive/negative sentiment analysis over tweets downloade
 
 
 
-**How To Use sentiment.py and scorer.py**
+## **How To Use sentiment.py and scorer.py**
 
 * Open command prompt and change directory to where you downloaded your files
+  * e.g. If you downloaded the files to your downloads folder then enter 'cd downloads'
+  
+    [![image.png](https://i.postimg.cc/P5n7qP3b/image.png)](https://postimg.cc/yknjQYzW)
 
-* Enter the command : python sentiment.py sentiment-train.txt sentiment-test.txt my-model.txt > my-sentiment-answers.txt
+* Enter the command : ```python sentiment.py sentiment-train.txt sentiment-test.txt my-model.txt > my-sentiment-answers.txt```
 
 * To view list of predicted sentiments open my-sentiment-answers.txt 
 
