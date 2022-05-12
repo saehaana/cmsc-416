@@ -18,7 +18,7 @@ This program performs positive/negative sentiment analysis over tweets downloade
 
   * For just nltk stopwords : type ```python -m nltk.downloader stopwords```
 
-## **How To Use sentiment.py and scorer.py**
+## **How To Use**
 
 * Open command prompt and change directory to where you downloaded your files
   * e.g. If you downloaded the files to your Downloads folder then enter 'cd downloads'
