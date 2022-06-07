@@ -31,7 +31,7 @@ This program detects whether a sentence uses the word "line" in the correct sens
   
     [![image.png](https://i.postimg.cc/kgwNynQJ/image.png)](https://postimg.cc/pmhnWMc4)
 
-* To run scorer.py, enter the command : ```python scorer.py my-line-answers.txt line-key.txt```
+* To run scorer.py, enter the command : ```python scorerWSD.py my-line-answers.txt line-key.txt```
   
   * This will output wsd.py's model accuracy and a confusion matrix
   
