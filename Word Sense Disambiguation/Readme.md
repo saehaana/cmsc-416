@@ -2,7 +2,7 @@
 
 ## **Summary**
 
-This program performs positive/negative sentiment analysis over tweets downloaded from twitter. A bag-of-words representation of the training data and other features were used as a model for our program to learn from. Using this model, the program reads an unannotated corpus and predicts whether a tweet is more positive or negative in sentiment. The accuracy of the model can be seen within the description of sentiment.py 
+This program detects whether a sentence uses the word "line" in the correct sense. The correct word sense will be either phone or product. A bag-of-words representation of the training data and other features were used as a model for our program to learn from. Using this model, the program reads an unannotated corpus and predicts whether an instance is more in context of the word "product" or "phone". The accuracy of the model can be seen within the description of wsd.py 
 
 ## **Installation**
 
@@ -25,16 +25,16 @@ This program performs positive/negative sentiment analysis over tweets downloade
   
     [![image.png](https://i.postimg.cc/P5n7qP3b/image.png)](https://postimg.cc/yknjQYzW)
 
-* To run sentiment.py, enter the command : ```python sentiment.py sentiment-train.txt sentiment-test.txt my-model.txt > my-sentiment-answers.txt```
+* To run wsd.py, enter the command : ```python wsd.py line-train.txt line-test.txt my-model.txt > my-line-answers.txt```
 
-  * A list of predicted sentiments will be outputted to my-sentiment-answers.txt which you can view in your folder
+  * A list of predicted word sense will be outputted to my-line-answers.txt which you can view in your folder
   
-    [![image.png](https://i.postimg.cc/wM7B3WBr/image.png)](https://postimg.cc/2LNYK7hd)
+    [![image.png](https://i.postimg.cc/kgwNynQJ/image.png)](https://postimg.cc/pmhnWMc4)
 
-* To run scorer.py, enter the command : ```python scorer.py my-sentiment-answers.txt sentiment-test-key.txt ```
+* To run scorer.py, enter the command : ```python scorer.py my-line-answers.txt line-key.txt```
   
-  * This will output sentiment.py's model accuracy and a confusion matrix
+  * This will output wsd.py's model accuracy and a confusion matrix
   
-    [![image.png](https://i.postimg.cc/T1CrvN4H/image.png)](https://postimg.cc/JHHybxmb)
+    [![image.png](https://i.postimg.cc/6qsCQTX0/image.png)](https://postimg.cc/k6c21JD6)
   
 
