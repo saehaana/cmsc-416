@@ -35,6 +35,6 @@ This program detects whether a sentence uses the word "line" in the correct sens
   
   * This will output wsd.py's model accuracy and a confusion matrix
   
-    [![image.png](https://i.postimg.cc/6qsCQTX0/image.png)](https://postimg.cc/k6c21JD6)
+    [![image.png](https://i.postimg.cc/gJ3nNDCV/image.png)](https://postimg.cc/YGqrS1q0)
   
 
